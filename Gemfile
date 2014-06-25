@@ -5,6 +5,8 @@ ruby '2.0.0'
 gem 'rails', '4.0.0'
 gem 'json', '~> 1.7.7'
 
+gem 'pg'
+
 group :development do
   gem 'sqlite3'
   gem 'pry-rails'
@@ -12,7 +14,6 @@ end
 
 group :production do
   gem 'thin'
-  gem 'pg'
 end
 
 # Gems used only for assets and not required
